@@ -13,21 +13,33 @@
   padding: 0;
 }
 
+/* reset the purple underlined link thing */
+a {
+  text-decoration: none;
+}
+
 body {
-  background-color: #42546B;
+  background-image: url("../images/background.png");
+  background-size: cover;
 }
 
 /* header: page title */
 header {
-  padding-top: 62px;
+  /* set the position of the header */
+  margin: 62px 70px 62px 70px;
+
+  /* this is for putting ◀ icon and the title in the same line */
   display: flex;
   justify-content: space-between;
 }
 
 /* the back button, on the top left "◀" */
-#backButton {
+#backButton{
   color: var(--white);
   font-size: 75px;
+}
+
+#pageTitle{
 }
 
 /* h1: page title */
@@ -36,11 +48,58 @@ h1{
   color: var(--white);
   font-size: 94px;
   font-weight: bold;
-  /* text-shadow: 0px 4px 4px var(--black); */
+  text-shadow: 0px 4px 4px rgb(0, 0, 0, 0.2);
 }
 
-#mapFacilityList{
-  border: solid black 4px;
-  float: left;
-  width: 478px;
+
+
+
+
+
+
+
+/* this part is only used for the map, so that it doesn't bother the others ;) */
+
+
+#buildingAndFloors{
+  display: flex;
+
 }
+
+#mapDropdownBox{
+  background-color: var(--lightBlue);
+  height: 77px;
+  line-height: 77px;
+  text-align: center;
+  margin: 0 10px 0 10px;
+  width: 313px;
+  font-size: 32px;
+  color: var(--white);
+  border-radius: 20px;
+  box-shadow  : 0px 4px 4px rgb(0, 0, 0, 0.2);
+}
+
+/* the list of the map (on the left) */
+#mapFacilityList{
+  float: left;
+  width: 407px;
+  height: 888px;
+  background-color: rgb(255, 255, 255, 0.7);
+
+}
+
+/* make the list of the map look prettier */
+.mapList li{
+  /* width: 339px; */
+  list-style: none;
+  background-color: var(--blue);
+  height: 71px;
+  line-height: 71px;
+  font-size: 24px;
+  color: var(--white);
+  font-weight: 500;
+  margin: 8px 34px 8px 34px;
+  border-radius: 10px;
+  padding: 0 0 0 34px;
+}
+

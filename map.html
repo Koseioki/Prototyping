@@ -6,19 +6,36 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>MAP</title>
   <link rel="stylesheet" href="css/css.css">
-  <link rel="stylesheet" href="css/css.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 </head>
 <body>
   <header>
-    <a id="backButton">◀</a>
-    <h1>MAP</h1>
-    <nav id="buildingAndFloors">aaa</nav>
+    <div>
+      <a href="menu.html" id="backButton">◀</a>
+    </div>
+    
+    <div id="pageTitle">
+      <h1>MAP</h1>
+    </div>
+
+    <nav id="buildingAndFloors">
+      <div id="mapDropdownBox">Building 10 ⏷</div>
+      <div id="mapDropdownBox">Ground floor ⏷</div>
+    </nav>
 </header>
 
-  <nav id="mapFacilityList">aaa</nav>
+  <nav id="mapFacilityList">
+    <ul class="mapList">
+      <li>Bar</li>
+      <li>Study room</li>
+      <li>Public kitchen</li>
+      <li>Public bathroom</li>
+    </ul>
+  </nav>
+
+  <img src="images/groundfloor.svg" alt="the map of the ground floor, with name labels on it">
 
   <script src="js/js.js"></script>
 </body>
