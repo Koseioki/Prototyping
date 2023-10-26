@@ -1,16 +1,46 @@
-/**
- * file: css/css.css
- * purpose: styling
- **/
+/* define variables*/
+* {
+  --blue: #42546B;
+  --lightBlue: #A4ABB5;
+  --white: #FFFDF8;
+  --black: #000000;
+  --red: #C24545;
+  --green: #86A55D;
+  font-family: 'Montserrat', sans-serif;
 
-/* Define variables in the :root */
- :root {
-   --contrast: lime;
-   --backgr: #000;
- }
+  /* reset margin and padding */
+  margin: 0;
+  padding: 0;
+}
 
-/* Use your variables on elements */
- main {
-   color: var(--contrast);
-   background-color: var(--backgr);
- }
+body {
+  background-color: #42546B;
+}
+
+/* header: page title */
+header {
+  padding-top: 62px;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* the back button, on the top left "◀" */
+#backButton {
+  color: var(--white);
+  font-size: 75px;
+}
+
+/* h1: page title */
+h1{
+  text-align: center;
+  color: var(--white);
+  font-size: 94px;
+  font-weight: bold;
+  /* text-shadow: 0px 4px 4px var(--black); */
+}
+
+#mapFacilityList{
+  border: solid black 4px;
+  float: left;
+  width: 478px;
+}
