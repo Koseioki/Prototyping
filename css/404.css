@@ -1,0 +1,48 @@
+p {
+    font-family: 'Inter', sans-serif;
+    font-size: 40px;
+    color: var(--white);
+    font-weight: bold; 
+    text-align: center;
+    padding-top: 15px;
+}
+ img {
+    border-radius: 40px;
+    width: 700px;
+    height: auto;
+ }
+
+ .container {
+    display: flex;
+    justify-content: center; /* Horizontally center */
+    padding-top: 10px;
+ }
+
+ body {
+    padding-top: 100px;
+    
+ }
+ h1 {
+    text-align: center;
+ }
+
+ .cta-button {
+    width: 700px;
+    height: 100px;
+    display: flex;
+    justify-content: center; 
+    background-color: #FFFDF8; 
+    color: #42546B; 
+    border-radius: 40px; 
+    font-family: 'Inter', sans-serif;
+    font-size: 50px; 
+    font-weight: medium; 
+    text-align: center;
+    padding-top: 40px;
+ }
+
+ .button {
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+ }

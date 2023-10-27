@@ -1,73 +1,81 @@
-<<<<<<< Updated upstream
 <!--Menu page-->
-<!DOCTYPE html>
-<html>
-    <head>
-        <Title>Menu</Title>
-        <link rel="stylesheet" type="text/css" href="css/menu.css">
-        <h1>AARHUS Kollegiet </h1>
-
-    </head>
-
-<!--Buttons-->
-<body>
-<div class="map">
-    <h2>MAP</h2>
-    <img src="images/iconMap.png" alt="Map">
-</div>
-
-<div class="facility availability">
-    <h2>FACILITY AVILAVILITY</h2>
-    <img src="images/iconFacility.png" alt="Facility availability">
-</div>
-
-<div class="events">
-    <h2>EVENTS</h2>
-    <img src="images/iconEvents.png" alt="Events">
-</div>
-
-<div class="my cleaning schedule">
-    <h2>MY CLEANING SCHEDULE</h2>
-    <img src="images/iconCleaning.png" alt="My Cleaning Schedule">
-</div>
-
-<div class="contact us">
-    <h2>CONTACT US</h2>
-    <img src="images/iconContactUs.png" alt="Contact Us">
-</div>
-
-<div class="faq">
-    <h2>FAQ</h2>
-    <img src="images/iconFAQ.png" alt="FAQ">
-</div>
-
-<!--Background photo-->
-<img src="images/background.png" alt="Background">
-<style>   
-body {
-        background-image: url('images/background.png');
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
-}
-</style>
-
-</body>
-
-</html>
-=======
 <!DOCTYPE html>
 <html lang="en">
 <head>
+<!DOCTYPE html>
+<html lang="en">
+<Title>Menu</Title>
+<link rel="stylesheet" type="text/css" href="css/menu.css">
+<link rel="stylesheet" href="css/css.css">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Document</title>
-  <link rel="stylesheet" href="css/css.css">
+
+  <style>
+    .rounded-button {
+        background-color: #fffdf8;
+        color: black;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 20px; 
+        cursor: pointer;
+    }
+</style>
+
+<header>
+    <!-- back button -->
+    <div>
+      <a href="menu.html" id="backButton">◀</a>
+    </div>
+    
+    <!-- title -->
+    <div id="pageTitle">
+      <h1>AARHUS Kollegiet</h1>
+    </div>
+
+</header>
 </head>
 <body>
-  <main>Content here</main>
+
   <script src="js/js.js"></script>
+
+<html>
+
+
+
+
+<!-- buttons -->
+<div class="button-container">
+    <button class="rounded-button">
+        <img src="images/iconMap.png" alt="Map">
+        <H2>MAP</H2>
+    </button>
+
+    <button class="rounded-button">
+        <img src="images/iconFacilities.png" alt="Facility availability">
+        <H2>FACILITY AVAILABILITY</H2>
+    </button>
+
+    <button class="rounded-button">
+        <img src="images/iconEvents.png" alt="Events">
+        <H2>EVENTS</H2>
+    </button>
+
+    <button class="rounded-button">
+        <img src="images/iconCleaning.png" alt="My Cleaning Schedule">
+        <H2>MY CLEANING SCHEDULE</H2>
+        </button>
+
+    <button class="rounded-button">
+        <img src="images/iconContacts.png" alt="Contact Us">
+        <H2>CONTACT US</H2>
+    </button>
+
+    <button class="rounded-button">
+        <img src="images/iconFAQ.png" alt="FAQ">
+        <H2>FAQ</H2>
+    </button>
+  </div>
 </body>
+
 </html>
->>>>>>> Stashed changes
