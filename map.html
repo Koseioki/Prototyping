@@ -30,8 +30,19 @@
 
       <!-- dropdown menu start -->
     <nav id="buildingAndFloors">
-      <div id="mapDropdownBox">Building 10 ⏷</div>
-      <div id="mapDropdownBox">Ground floor ⏷</div>
+
+      <!-- building dropdown -->
+      <div class="dropdown">
+        <button class="mapDropdownBox">Building 10 ⏷</button>  
+        <div class="dropdownContent">
+          <a href="#">link1</a>
+          <a href="#">link2</a>
+        </div>
+      </div>
+      
+      <!-- floor dropdown -->
+      <div class="mapDropdownBox">Ground floor ⏷</div>
+
     </nav>
     <!-- dropdown menu end -->
 
@@ -39,9 +50,9 @@
 
 <section id="bodyContainer">
   <nav id="mapFacilityList">
-    
+    <input type="search" id="searchBox" placeholder="Search"></input>
     <ul class="mapList">
-        <input type="search" id="searchBox" placeholder="Search"></inputz>
+        
       <li>Bar</li>
       <li>Study room</li>
       <li>Public kitchen</li>

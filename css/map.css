@@ -10,7 +10,7 @@
 }
 
 /* styling 2 bluelight dropdown menu buttons */
-#mapDropdownBox {
+.mapDropdownBox {
     /* make them inline */
   float: right;
   height: 77px;
@@ -35,13 +35,12 @@
 #mapFacilityList {
   /* float: left; */
   width: 407px;
-  height: 100%;
   background-color: rgb(255, 255, 255, 0.7);
 }
 
 #searchBox {
     height: 71px;
-    /* width: 339px; */
+    width: 339px;
     line-height: 71px;
     list-style: none;
     font-size: 24px;
@@ -51,7 +50,7 @@
     border-radius: 10px;
     border: 5px var(--lightBlue) solid;
     margin: 38px 34px 0px 34px;
-    padding: 0 0 0 29px;
+    padding: 0 29px 0 29px;
 }
 
 /* make the list of the map look prettier */
