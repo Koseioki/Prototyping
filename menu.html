@@ -1,81 +1,106 @@
 <!--Menu page-->
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-<!DOCTYPE html>
-<html lang="en">
-<Title>Menu</Title>
-<link rel="stylesheet" type="text/css" href="css/menu.css">
-<link rel="stylesheet" href="css/css.css">
+  <!DOCTYPE html>
+  <html lang="en">
+  <Title>Menu</Title>
+
+  <!-- swapped these two, bc html files scan from the top to the bottom -->
+  <link rel="stylesheet" href="css/css.css">
+  <link rel="stylesheet" type="text/css" href="css/menu.css">
+
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-  <style>
-  
+  <!-- KOSEI: moved them to menu.css  -->
+  <!-- <style>
     .rounded-button {
-        background-color: #fffdf8;
-        color: black;
-        padding: 30% 80px;
-        border: none;
-        border-radius: 25px; 
-        cursor: pointer;
+      background-color: #fffdf8;
+      color: black;
+      padding: 30% 80px;
+      border: none;
+      border-radius: 25px;
+      cursor: pointer;
     }
-</style>
+  </style> -->
 
-<header>
-    <!-- back button start -->
+  <!--  KOSEI: moved this part inside <body>
+
+  <header>
     <div>
       <a href="menu.html" id="backButton">◀</a>
     </div>
-    <!-- back button end -->
     
-    <!-- title -->
     <div id="pageTitle">
       <h1>AARHUS Kollegiet</h1>
-    </div></header>
+    </div></header> -->
+
 </head>
 
 <body>
 
   <script src="js/js.js"></script>
 
-<html>
+  <!-- KOSEI deleted this one line ↓  -->
+  <!-- <html> -->
 
 
-<!-- buttons -->
+  <header>
+    <!-- back button start -->
+    <div>
+      <a href="index.html" id="backButton">◀</a>
+    </div>
+    <!-- back button end -->
 
-<div class="button-container">
+    <!-- page title start -->
+    <div id="pageTitle">
+      <h1>AARHUS<br>Kollegiet</h1>
+    </div>
+    <!-- page title end -->
+
+  </header>
+
+  <!-- buttons -->
+
+  <!-- KOSEI: divided 6 buttons into 3 & 3, and applied justify-content evenly -->
+  <div class="button-container">
+
+
     <button class="rounded-button">
-        <img src="images/iconMap.png" alt="Map">
-        <H2>MAP</H2>
-
+      <img src="images/iconMap.png" alt="Map">
+      <!-- KOSEI: changed h2 to a -->
+      <a>MAP</a>
     </button>
 
-
     <button class="rounded-button">
-        <img src="images/iconFacilities.png" alt="Facility availability">
-        <H2>FACILITY AVAILABILITY</H2>
+      <img src="images/iconFacilities.png" alt="Facility availability">
+      <a>FACILITY<br>AVAILABILITY</a>
     </button>
 
     <button class="rounded-button">
-        <img src="images/iconEvents.png" alt="Events">
-        <H2>EVENTS</H2>
+      <img src="images/iconEvents.png" alt="Events">
+      <a>EVENTS</a>
+    </button>
+
+  </div>
+
+  <div class="button-container">
+    <button class="rounded-button">
+      <img src="images/iconCleaning.png" alt="My Cleaning Schedule">
+      <a>MY CLEANING<br>SCHEDULE</a>
     </button>
 
     <button class="rounded-button">
-        <img src="images/iconCleaning.png" alt="My Cleaning Schedule">
-        <H2>MY CLEANING SCHEDULE</H2>
-        </button>
-
-    <button class="rounded-button">
-        <img src="images/iconContacts.png" alt="Contact Us">
-        <H2>CONTACT US</H2>
+      <img src="images/iconContacts.png" alt="Contact Us">
+      <a>CONTACT US</a>
     </button>
 
     <button class="rounded-button">
-        <img src="images/iconFAQ.png" alt="FAQ">
-        <H2>FAQ</H2>
+      <img src="images/iconFAQ.png" alt="FAQ">
+      <a>FAQ</a>
     </button>
 
   </div>

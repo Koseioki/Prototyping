@@ -1,81 +1,36 @@
-/* this page is only used in the map page*/
-* {
-    --blue: #42546B;
-    --lightBlue: #A4ABB5;
-    --white: #FFFDF8;
-    --black: #000000;
-    --red: #C24545;
-    --green: #86A55D;
-    font-family: 'Montserrat', sans-serif;
-  
+/* KOSEI: deleted the first part bc css.css has the same thing, tf it doesn't have to be written here */
 
-    /* reset margin and padding */
-    margin: 0%;
-    padding: 0%;
-  }
-  
-  .title {
-    text-align: center;
-    margin-top: 10px; /* Adjust the margin-top as needed */
-}
 
-  /* reset the purple underlined link thing */
-  a {
-    text-decoration: none;
-  }
-
-  /* header: page title */
-  header {
-    /* set the position of the header */
-    margin: 62px 70px 62px 70px;
-  
-    /* this is for putting ◀ icon and the title in the same line */
-    display: flex;
-    justify-content: space-between;
-  }
-  
-/* the header (page title, ◀ icon, etc...) */
-header {
-  /* define the size of the header */
-    height: 200px;
-    width: 100%;
-  
-    /* spell for putting header elements inline */
-    position: relative;
-  }
-/* the back button, on the top left "◀" */
-#backButton{
-  color: var(--white);
-  font-size: 75px;
-
-  /* put ◀ on the left side */
-  position: absolute;
-  left: 69px;
-  top: 50%;
-  transform: translate(0, -50%);
-}
-
-/* the page title (in the header) */
-#pageTitle{
-  /* put the title in the center */
-  position: absolute;
-  left: 50%;
-  top: 50%; 
-  transform: translate(-50%, -50%);
-
-}
-
-  #pageTitle{
-  /* h1: page title */
+/* KOSEI: deleted this */
+  /* #pageTitle{
   h1{
     text-align: center;
     color: var(--white);
     font-size: 94px;
     font-weight: bold;
     text-shadow: 0px 4px 4px rgb(0, 0, 0, 0.2);}
+  } */
+
+  /* KOSEI: redefine the font size of the title, bc it's got 2 lines and kinda too big */
+  h1{
+    font-size: 80px;
+
   }
 
-.button-item {
+  /* the label text of the button "map" "facility availability" etc */
+  .rounded-button a {
+    width: 100%;
+    font-size: 34px;
+    font-weight: bold;
+    position: absolute;
+    bottom: 50px;
+    left: 50%;
+    transform: translate(-50%, 50%);
+  }
+
+
+
+/* .button-item {
   display: flex;
   place-items: center;
   flex-direction: column;
@@ -85,32 +40,50 @@ header {
   color: #000;
   padding: 80px;
   text-align: center;
-} 
+}  */
 
 .button-container {
   display: flex;
-  justify-content: center;
+  /* justify-content: center; */
+  justify-content: space-evenly;
 }
 
-.button-container {
+/* .button-container {
   display: grid;
-  grid-template-columns: repeat(3, 1fr); /* Three columns */
-  grid-template-rows: repeat(2, 1fr); /* Two rows */
+  grid-template-columns: repeat(3, 1fr); Three columns */
+  /* grid-template-rows: repeat(2, 1fr); Two rows
   gap: 45px;
   width: 467px;
   height: 306px
-}
+} */
 
-button {
+/* button {
   background-color: var(--white);
   color: var(--black);
   padding: 10px;
   border: none;
   cursor: pointer;
-}
+} */
 
 /*adds the icon to CTA buttons, example - map icon in the  map button*/
 .button-item img {
   width: 50%;
   height: 200%;
+} 
+
+.rounded-button {
+  /* button size: from Figma prototype */
+  height: 306px;
+  width: 467px;
+  border-radius: 40px;
+  margin-bottom: 72px;
+  background-color: #fffdf8;
+
+  /* put this to justify the label text inside the buttons */
+  position: relative;
+  /* color: black;
+  padding: 30% 80px;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer; */
 }

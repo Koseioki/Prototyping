@@ -26,7 +26,8 @@ p {
     text-align: center;
  }
 
- .cta-button {
+ /* .cta-button { */
+   input{
     width: 700px;
     height: 100px;
     display: flex;
@@ -34,12 +35,15 @@ p {
     background-color: #FFFDF8; 
     color: #42546B; 
     border-radius: 40px; 
-    font-family: 'Inter', sans-serif;
+
+    /* KOSEI: font should be Montserrat */
+    /* font-family: 'Inter', sans-serif; */
     font-size: 50px; 
     font-weight: medium; 
     text-align: center;
-    padding-top: 40px;
- }
+    /* KOSEI deleted this padding bc it works somehow */
+    /* padding-top: 40px; */
+   }
 
  .button {
     display: flex;
