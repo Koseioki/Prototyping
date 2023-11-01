@@ -57,30 +57,24 @@ body {
     background-image: url("../images/StartPageBackground.png");
     background-size: cover;
   }
-  
-.buttontostart {
-  /* Center the button horizontally */
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
-  /* Position the button at a height of 877px */
-  top: 877px;
-  /*style button*/
-  background-color: var(--blue);
-  width: 666px;
-  height: 138px;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
-  border-radius: 30px;
-  border: none;
-  cursor: pointer;
-}
 
-.button{
-  color: var(--white);
-  font-size: 70px;
-  font-weight: bold;
-  font-family: 'Montserrat', sans-serif;
-  text-align: center;
-  font-style: var(--white);
   
-}
+.button {
+    width: 666px;
+    height: 138px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+    border-radius: 30px;
+    border: none;
+    background-color: var(--blue);
+    cursor: pointer;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 877px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 70px;
+    color: var(--white);
+  }
+
