@@ -1,17 +1,4 @@
-/* KOSEI: deleted the first part bc css.css has the same thing, tf it doesn't have to be written here */
 
-
-/* KOSEI: deleted this */
-  /* #pageTitle{
-  h1{
-    text-align: center;
-    color: var(--white);
-    font-size: 94px;
-    font-weight: bold;
-    text-shadow: 0px 4px 4px rgb(0, 0, 0, 0.2);}
-  } */
-
-  /* KOSEI: redefine the font size of the title, bc it's got 2 lines and kinda too big */
   h1{
     font-size: 80px;
 
@@ -28,42 +15,12 @@
     transform: translate(-50%, 50%);
   }
 
-
-
-/* .button-item {
-  display: flex;
-  place-items: center;
-  flex-direction: column;
-  align-items: center;
-  
-  background-color: #FFFDF8;
-  color: #000;
-  padding: 80px;
-  text-align: center;
-}  */
-
 .button-container {
   display: flex;
   /* justify-content: center; */
   justify-content: space-evenly;
+
 }
-
-/* .button-container {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr); Three columns */
-  /* grid-template-rows: repeat(2, 1fr); Two rows
-  gap: 45px;
-  width: 467px;
-  height: 306px
-} */
-
-/* button {
-  background-color: var(--white);
-  color: var(--black);
-  padding: 10px;
-  border: none;
-  cursor: pointer;
-} */
 
 /*adds the icon to CTA buttons, example - map icon in the  map button*/
 .button-item img {
@@ -72,7 +29,7 @@
 } 
 
 .rounded-button {
-  /* button size: from Figma prototype */
+  /* button size */
   height: 306px;
   width: 467px;
   border-radius: 40px;
@@ -81,9 +38,30 @@
 
   /* put this to justify the label text inside the buttons */
   position: relative;
-  /* color: black;
-  padding: 30% 80px;
-  border: none;
-  border-radius: 25px;
-  cursor: pointer; */
 }
+/* icon sizing */
+.resizable-image1 {
+  width: 212px;
+  height: 180px;
+}
+.resizable-image2 {
+  width: 126px;
+  height: 138px;
+}
+.resizable-image3 {
+  width: 168px;
+  height: 169px;
+}
+.resizable-image4 {
+  width: 139px;
+  height: 144px;
+}
+.resizable-image5 {
+  width: 137px;
+  height: 137px;
+}
+.resizable-image6 {
+  width: 216px;
+  height: 155px;
+}
+
