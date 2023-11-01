@@ -84,6 +84,9 @@
 /* the list of the map (on the left) */
 #mapFacilityList {
   width: 407px;
+
+  /* height = 1117 - 250px(header) = 867  */
+  height: 867px;
   background-color: rgb(255, 255, 255, 0.7);
 }
 
@@ -120,4 +123,28 @@
 #mapContainer {
   padding: 50px;
 
+}
+
+/* for all svgs to aline in the same place*/
+.mapImage{
+  position: absolute;
+}
+
+#studyRoom {
+  display: none;
+}
+
+.textbutton {
+  border: 1px black solid;
+  background-color: white;
+  width: 100px;
+  height: 100px;
+}
+
+.textbutton:hover {
+  background-color: aqua;
+}
+
+.textbutton:hover + #studyRoom {
+  display: block;
 }

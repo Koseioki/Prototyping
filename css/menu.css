@@ -1,4 +1,5 @@
 
+/* change the title size bc it's kinda too big for AARHUS Kollegiet */
   h1{
     font-size: 80px;
 
@@ -35,6 +36,7 @@
   border-radius: 40px;
   margin-bottom: 72px;
   background-color: #fffdf8;
+  cursor: pointer;
   
 
   /* put this to justify the label text inside the buttons */
@@ -42,7 +44,7 @@
 }
 
 
-/* icon sizing */
+/* button icon sizing */
 .resizable-image1 {
   width: 212px;
   height: 180px;

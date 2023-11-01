@@ -1,0 +1,35 @@
+
+/* made the title font a bit smaller so it doesn't look too stuffy yay */
+h1{
+    font-size: 80px;
+}
+
+/* adjust the length of the page title so it is one line */
+#pageTitle {
+    width: 60%;
+}
+
+#box {
+    width: 1000px;
+    height: 700px;
+    background-color: #FFFDF8;
+    border-radius: 20px;
+    text-align: center;
+}
+
+container {
+    display: flex;
+    justify-content: center;
+}
+
+p {
+    /* font-family: 'Montserrat', sans-serif; */
+    /* text-align: center; */
+    font-size: 60px;
+    font-weight: semibold; 
+    padding-top: 50px;
+    margin-bottom: 40px;
+    margin-top: 30px;
+
+}
+

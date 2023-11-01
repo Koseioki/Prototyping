@@ -1,0 +1,71 @@
+#pageTitle {
+    /* align the title to the right */
+    
+    transform: translate(0, -50%);
+    text-align: right;
+    
+    /* 0px from the right edge */
+    right: 30px;
+
+
+    font-size: 80px;
+    font-weight: bold;
+}
+
+/* change the font size of Anna rasumussen */
+h1 {
+    font-size: 70px;
+}
+
+
+#bigdiv {
+    border: 2px blue solid;
+    display: flex;
+    /* justify-content: space-around; */
+    
+}
+
+#leftdiv {
+    border: 1px red solid;
+    padding-left: 200px;
+    padding-bottom: 150px;
+}
+
+#rightdiv {
+    border: 1px red solid;
+    padding-bottom: 150px;
+}
+
+#box1 {
+    width: 700px;
+    height: 100px;
+    background-color: #FFFDF8;
+    border-radius: 20px;
+    text-align: center;
+    
+}
+
+#box2 {
+    width: 500px;
+    height: 700px;
+    background-color: #FFFDF8;
+    border-radius: 20px;
+}
+
+h2 {
+    color: #42546B;
+    font-family: 'Montserrat' sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+li {
+    color: #42546B;
+    font-family: 'Montserrat' sans-serif;
+    font-size: 27px;
+    font-weight: Medium;
+}
+
+.line-spacing {
+    line-height: 1.5; /* You can adjust the value as needed */
+}
