@@ -19,13 +19,13 @@
   display: flex;
   /* justify-content: center; */
   justify-content: space-evenly;
-
 }
 
 /*adds the icon to CTA buttons, example - map icon in the  map button*/
 .button-item img {
   width: 50%;
   height: 200%;
+
 } 
 
 .rounded-button {
@@ -35,10 +35,13 @@
   border-radius: 40px;
   margin-bottom: 72px;
   background-color: #fffdf8;
+  
 
   /* put this to justify the label text inside the buttons */
   position: relative;
 }
+
+
 /* icon sizing */
 .resizable-image1 {
   width: 212px;
