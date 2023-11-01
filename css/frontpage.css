@@ -58,6 +58,7 @@ body {
     background-size: cover;
   }
 
+<<<<<<< Updated upstream
   
 .button {
     width: 666px;
@@ -78,3 +79,11 @@ body {
     color: var(--white);
   }
 
+=======
+.button{
+  color: var(--white);
+  font-size: 70px;
+  font-weight: bold;
+  font-family: 'Montserrat', sans-serif;
+}
+>>>>>>> Stashed changes
