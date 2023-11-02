@@ -106,7 +106,7 @@
 }
 
 /* make the list of the map look prettier */
-.mapList li {
+.mapList {
   height: 71px;
   line-height: 71px;
   list-style: none;
@@ -130,21 +130,11 @@
   position: absolute;
 }
 
-#studyRoom {
+
+#lightupStudyroom {
   display: none;
 }
 
-.textbutton {
-  border: 1px black solid;
-  background-color: white;
-  width: 100px;
-  height: 100px;
-}
-
-.textbutton:hover {
-  background-color: aqua;
-}
-
-.textbutton:hover + #studyRoom {
-  display: block;
+#lightupBar {
+  display: none;
 }
