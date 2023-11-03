@@ -11,10 +11,3 @@ function mousedown(){
 function mouseup(){
     document.getElementById("lightupStudyroom").style.display = "none";
 }
-
-function mousedown(){
-    document.getElementById("lightupBar").style.display = "block";
-}
-function mouseup(){
-    document.getElementById("lightupBar").style.display = "none";
-}
