@@ -21,15 +21,14 @@ a {
   text-decoration: none;
 }
 
-
-
 body {
   /* set the background image (blue filtered) */
   background-image: url("../images/background.png");
   background-size: cover;
+
+  /* fixed screen size */
   width: 1728px;
   height: 1117px;
-  /* border: 10px black solid; */
 }
 
 /* the header (page title, ◀ icon, etc...) */
@@ -61,9 +60,7 @@ header {
   left: 50%;
   top: 50%; 
   transform: translate(-50%, -50%);
-  /* border: black solid 1px; */
   /* width: 100%; */
-
 }
 
 /* h1: page title */
