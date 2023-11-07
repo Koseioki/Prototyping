@@ -3,10 +3,11 @@
   h1{
     font-size: 80px;
 
+
   }
 
   /* the label text of the button "map" "facility availability" etc */
-  .rounded-button a {
+  /* .rounded-button a {
     width: 100%;
     font-size: 34px;
     font-weight: bold;
@@ -14,18 +15,25 @@
     bottom: 50px;
     left: 50%;
     transform: translate(-50%, 50%);
-  }
+  } */
 
 .button-container {
+  margin: 30px;
   display: flex;
   /* justify-content: center; */
   justify-content: space-evenly;
 }
 
 /*adds the icon to CTA buttons, example - map icon in the  map button*/
-.button-item img {
-  width: 50%;
-  height: 200%;
+
+
+
+/* put the images in the right place  */
+img {
+  position: absolute;
+  top: 45px;
+  left: 50%;
+  transform: translate(-50%, 0);
 
 } 
 
@@ -43,30 +51,47 @@
   position: relative;
 }
 
+/* the text inside the box */
+p{
+  margin-top: 30px;
+  font-size: 32px;
+  font-weight: bold;
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translate(-50%, 0);
+  width: 100%;
+}
+
+img {
+
+}
+
 
 /* button icon sizing */
 .resizable-image1 {
   width: 212px;
-  height: 180px;
+  /* height: 180px; */
 }
 .resizable-image2 {
-  width: 126px;
-  height: 138px;
+  /* width: 126px; */
+  /* height: 138px; */
+  width: 170px;
 }
 .resizable-image3 {
   width: 168px;
-  height: 169px;
+  /* height: 169px; */
 }
 .resizable-image4 {
   width: 139px;
-  height: 144px;
+  /* height: 144px; */
 }
 .resizable-image5 {
   width: 137px;
-  height: 137px;
+  /* height: 137px; */
 }
 .resizable-image6 {
   width: 216px;
-  height: 155px;
+  /* height: 155px; */
 }
 

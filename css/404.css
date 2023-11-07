@@ -1,5 +1,5 @@
 p {
-    font-family: 'Inter', sans-serif;
+    /* font-family: 'Inter', sans-serif; */
     font-size: 40px;
     color: var(--white);
     font-weight: bold; 
@@ -7,7 +7,7 @@ p {
     padding-top: 15px;
 }
  img {
-    border-radius: 40px;
+    border-radius: 30px;
     width: 700px;
     height: auto;
  }
@@ -32,9 +32,10 @@ p {
     height: 100px;
     display: flex;
     justify-content: center; 
-    background-color: #FFFDF8; 
-    color: #42546B; 
-    border-radius: 40px; 
+    background-color: var(--white); 
+    color: var(--blue); 
+    border: 4px var(--blue) solid;
+    border-radius: 30px; 
 
     /* KOSEI: font should be Montserrat */
     /* font-family: 'Inter', sans-serif; */

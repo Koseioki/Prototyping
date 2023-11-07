@@ -1,39 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Language</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Language</title>
+    <link rel="stylesheet" href="css/css.css">
     <link rel="stylesheet" href="css/language.css">
     <link
-    href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-    rel="stylesheet">
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
     <header>
         <!--is there a better and more efficient way to add a gap between the top of the page and the title? now i just used <br> multiple times and it worked, but im sure there is a better and more "Per approved" way haha-->
-    <br>
-    <br>
-    <br>
-    
-    <h1>Choose a language:</h1>
+        <div id="pageTitle">
+            <h1>Choose a language:</h1>
+        </div>
 
-    <div class="button-container">
-        <div class="button-grid">
-        <button class="big-margin-button">
-            DANISH
-        </button>
-        </div>
-    
-    
-        <div class="button-container">
-        <div class="button-grid">
-        <button class="big-margin-button">
-            ENGLISH
-        </button>
-        </div>
     </header>
 
+
+    <div class="button-container">
+
+            <!-- <div class="button-grid"> -->
+            <button class="big-margin-button" onclick="window.location.href='menu.html'";>
+                DANISH
+            </button>
+            <!-- </div>
+        </div> -->
+
+
+        <!-- <div class="button-container">
+            <div class="button-grid"> -->
+     
+            <button class="big-margin-button" onclick="window.location.href='menu.html'";>
+                ENGLISH
+            </button>
+    
+        <!-- </div> -->
+    </div>
+
+
 </body>
+
 </html>
