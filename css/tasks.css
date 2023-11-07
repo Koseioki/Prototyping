@@ -37,25 +37,25 @@ h1 {
 #box1 {
     width: 700px;
     height: 120px;
-    background-color: #FFFDF8;
+    background-color: var(--white);
     border-radius: 20px;
     text-align: center;
     margin-top: 65px;
-    border: yellow 5px solid;
+    /* border: yellow 5px solid; */
     
 }
 
 #box2 {
     width: 600px;
     height: 700px;
-    background-color: #FFFDF8;
+    background-color: var(--white);
     border-radius: 20px;
     margin-left: 53px;
-    border: pink 5px solid;
+    /* border: pink 5px solid; */
 }
 
 h2 {
-    color: #42546B;
+    color: var(--blue);
     font-family: 'Montserrat' sans-serif;
     font-size: 50px;
     font-weight: bold;
@@ -65,7 +65,7 @@ h2 {
 }
 
 li {
-    color: #42546B;
+    color: var(--black);
     font-family: 'Montserrat', sans-serif;
     font-size: 27px;
     font-weight: Medium;
