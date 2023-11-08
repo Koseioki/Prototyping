@@ -64,6 +64,9 @@ h2 {
     text-decoration: underline;
 }
 
+ul {
+    padding: 30px;
+}
 li {
     color: var(--black);
     font-family: 'Montserrat', sans-serif;
